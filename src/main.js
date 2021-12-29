@@ -17,6 +17,10 @@ import store from './store'
 import '@/icons' // icon
 import './router/index' // permission control
 
+import Avue from '@smallwei/avue'
+import '@smallwei/avue/lib/index.css'
+
+Vue.use(Avue)
 Vue.use(mavonEditor)
 Vue.use(permission)
 Vue.use(ElementUI, { locale })

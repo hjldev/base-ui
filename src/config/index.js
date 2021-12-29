@@ -46,5 +46,7 @@ export default {
   /**
    * 是否显示设置的悬浮按钮
    */
-  settingBtn: false
+  settingBtn: false,
+
+  actUrl: `${window.location.origin}/act/modeler.html?modelId=`
 }
